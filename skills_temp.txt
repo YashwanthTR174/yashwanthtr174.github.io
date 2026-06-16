@@ -1,0 +1,125 @@
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-file-java"></i>
+                    </div>
+                    <h4 class="skill-name">Java</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="85%"></div>
+                    </div>
+                    <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-file-py"></i>
+                    </div>
+                    <h4 class="skill-name">Python</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="80%"></div>
+                    </div>
+                    <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-file-html"></i>
+                    </div>
+                    <h4 class="skill-name">HTML</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="90%"></div>
+                    </div>
+                    <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-file-css"></i>
+                    </div>
+                    <h4 class="skill-name">CSS</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="85%"></div>
+                    </div>
+                    <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-file-js"></i>
+                    </div>
+                    <h4 class="skill-name">JavaScript</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="75%"></div>
+                    </div>
+                    <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-database"></i>
+                    </div>
+                    <h4 class="skill-name">SQL</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="80%"></div>
+                    </div>
+                    <span class="skill-percent">80%</span>
+                </div>
+                <!-- Frameworks & Tools -->
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-leaf"></i>
+                    </div>
+                    <h4 class="skill-name">Spring Boot</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="70%"></div>
+                    </div>
+                    <span class="skill-percent">70%</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-stack"></i>
+                    </div>
+                    <h4 class="skill-name">Hibernate</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="70%"></div>
+                    </div>
+                    <span class="skill-percent">70%</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-git-branch"></i>
+                    </div>
+                    <h4 class="skill-name">Git & GitHub</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="80%"></div>
+                    </div>
+                    <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-tree-structure"></i>
+                    </div>
+                    <h4 class="skill-name">Data Structures</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="75%"></div>
+                    </div>
+                    <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-cube"></i>
+                    </div>
+                    <h4 class="skill-name">OOP</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="85%"></div>
+                    </div>
+                    <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="ph ph-lightbulb"></i>
+                    </div>
+                    <h4 class="skill-name">Problem Solving</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="85%"></div>
+                    </div>
+                    <span class="skill-percent">85%</span>
+                </div>
+            </div>
+        </div>
