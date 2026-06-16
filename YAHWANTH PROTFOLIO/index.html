@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yashwanth T R - Software Developer & Engineering Graduate. Skilled in Java, Python, Spring Boot, and modern web technologies. View my portfolio, projects, and experience.">
+    <meta name="keywords" content="Yashwanth T R, Software Developer, Python Developer, Java Developer, Portfolio, Engineering Graduate, Web Developer">
+    <meta name="author" content="Yashwanth T R">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Yashwanth T R | Software Developer Portfolio">
+    <meta property="og:description" content="Engineering Graduate & Software Developer skilled in Java, Python, Spring Boot, and modern web technologies.">
+    <meta property="og:type" content="website">
+    
+    <title>Yashwanth T R | Software Developer Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/fill/style.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ========== PRELOADER ========== -->
+    <div class="preloader" id="preloader">
+        <span class="preloader-text">YTR</span>
+    </div>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Yashwanth<span class="logo-dot">.</span>dev<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#designs" class="nav-link">My Designs</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="ph ph-moon"></i>
+                </button>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-animation">
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting fade-in">Hello, I'm</p>
+                <h1 class="hero-name fade-in">Yashwanth <span class="highlight">T R</span></h1>
+                <h2 class="hero-title fade-in">
+                    <span class="typing-text"></span><span class="typing-cursor">|</span>
+                </h2>
+                <p class="hero-subtitle fade-in">Engineering Graduate</p>
+                <p class="hero-description fade-in" style="font-size: 1.1rem; line-height: 1.8;">
+                    A highly motivated Computer Science and Engineering student with a passion for software development, machine learning, and data science. Seeking an internship/full-time opportunity where I can apply my skills in coding, problem-solving, and collaborative teamwork to contribute to the company's success while further developing my technical expertise.
+                </p>
+                <div class="hero-buttons fade-in">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="ph ph-envelope-simple"></i> Get In Touch
+                    </a>
+                    <a href="./resume.pdf" class="btn btn-secondary">
+                        <i class="ph ph-download-simple"></i> Download CV
+                    </a>
+                </div>
+                <div class="hero-socials fade-in" style="display: flex; gap: 1.5rem; margin-top: 2.5rem;">
+                    <a href="https://linkedin.com/in/yashwanthtr174" target="_blank" class="social-icon" style="font-size: 2.2rem; color: var(--text-primary); transition: color 0.3s ease;">
+                        <i class="ph ph-linkedin-logo"></i>
+                    </a>
+                    <a href="https://github.com/yashwanthtr174" target="_blank" class="social-icon" style="font-size: 2.2rem; color: var(--text-primary); transition: color 0.3s ease;">
+                        <i class="ph ph-github-logo"></i>
+                    </a>
+                    <a href="https://instagram.com/yashwanth.tr_" target="_blank" class="social-icon" style="font-size: 2.2rem; color: var(--text-primary); transition: color 0.3s ease;">
+                        <i class="ph ph-instagram-logo"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-glow"></div>
+                    <div class="hero-avatar" style="overflow: hidden; padding: 0; display: flex; align-items: center; justify-content: center; background: none;">
+                        <img src="./assets/profile.jpg" alt="Yashwanth T R" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                    </div>
+                    <div class="hero-image-ring"></div>
+                </div>
+                <div class="hero-floating-badges">
+                    <div class="floating-badge badge-1">
+                        <i class="ph-fill ph-code"></i> Developer
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="ph-fill ph-rocket"></i> Problem Solver
+                    </div>
+                    <div class="floating-badge badge-3">
+                        <i class="ph-fill ph-graduation-cap"></i> Engineer
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="ph ph-caret-double-down"></i>
+        </a>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">01.</span> About Me
+            </h2>
+            <div class="about-content">
+                <div class="about-image fade-in slide-left">
+                    <div class="about-image-wrapper">
+                        <div class="about-avatar" style="overflow: hidden; padding: 0; display: flex; align-items: center; justify-content: center; background: none;">
+                            <img src="./assets/profile.jpg" alt="Yashwanth T R" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-lg);">
+                        </div>
+                        <div class="about-image-border"></div>
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="exp-number">2026</span>
+                        <span class="exp-text">Graduate</span>
+                    </div>
+                </div>
+                <div class="about-text fade-in slide-right">
+                    <h3>A Passionate Developer Building the Future</h3>
+                    <p>
+                        I am <strong>Yashwanth T R</strong>, an Engineering student graduating in 2026, with a deep passion for 
+                        software development and problem-solving. My journey in technology began during my engineering 
+                        studies, where I discovered the power of code to transform ideas into impactful solutions.
+                    </p>
+                    <p>
+                        I am actively learning and practicing my skills in <strong>Java, Python, and web development</strong>. 
+                        My focus is on strengthening my understanding of backend systems, dynamic web applications, and algorithm design. 
+                        I am currently gaining hands-on experience with frameworks like <strong>Spring Boot and Hibernate</strong>, 
+                        constantly exploring new concepts to improve my technical abilities.
+                    </p>
+                    <p>
+                        My goal is to join a forward-thinking organization where I can contribute my technical skills, 
+                        grow as a professional developer, and work on projects that make a meaningful difference. 
+                        I believe in writing clean, maintainable code and collaborating effectively with teams to 
+                        deliver high-quality software solutions.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="ph-bold ph-user"></i>
+                            <span><strong>Name:</strong> Yashwanth T R</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="ph-bold ph-envelope"></i>
+                            <span><strong>Email:</strong> yashwanthtr.vviet@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="ph-bold ph-map-pin"></i>
+                            <span><strong>Location:</strong> Karnataka, India</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="ph-bold ph-briefcase"></i>
+                            <span><strong>Status:</strong> Open to Opportunities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">02.</span> Technical Skills
+            </h2>
+            <div class="skills-card fade-in" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 2.5rem;">
+                <ul class="timeline-highlights" style="font-size: 1.1rem; line-height: 1.8;">
+                    <li style="margin-bottom: 1.2rem;"><i class="ph ph-check-circle" style="color: var(--primary);"></i> <strong>Programming:</strong> Familiar with C, Java, JavaScript, HTML, and CSS; actively improving coding skills through projects and practice</li>
+                    <li style="margin-bottom: 1.2rem;"><i class="ph ph-check-circle" style="color: var(--primary);"></i> <strong>Prompt Engineering:</strong> Designing & optimizing AI prompts</li>
+                    <li style="margin-bottom: 1.2rem;"><i class="ph ph-check-circle" style="color: var(--primary);"></i> <strong>Web Development:</strong> Front-end design</li>
+                    <li style="margin-bottom: 1.2rem;"><i class="ph ph-check-circle" style="color: var(--primary);"></i> <strong>Machine Learning & AI:</strong> Model integration</li>
+                    <li style="margin-bottom: 0;"><i class="ph ph-check-circle" style="color: var(--primary);"></i> <strong>ProjectManagement:</strong> Planning & coordination</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EDUCATION SECTION ========== -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">03.</span> Education
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot">
+                        <i class="ph-fill ph-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2022 – 2026 (Expected)</div>
+                        <h3>Bachelor of Engineering in CSE</h3>
+                        <h4>Computer Science & Engineering</h4>
+                        <p class="timeline-institution">
+                            <i class="ph ph-buildings"></i> Vidya Vikas Institute of Engineering and Technology - VVIET
+                        </p>
+                        <p class="timeline-location">
+                            <i class="ph ph-map-pin"></i> Mysuru, India
+                        </p>
+                        <ul class="timeline-highlights">
+                            <li><i class="ph ph-check-circle"></i> Current CGPA: 7.60</li>
+                            <li><i class="ph ph-check-circle"></i> Pursuing Bachelor of Engineering in Computer Science & Engineering</li>
+                            <li><i class="ph ph-check-circle"></i> Active in technical events and coding projects</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot">
+                        <i class="ph-fill ph-book-open"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2020 – 2022</div>
+                        <h3>Pre-University Education (PU)</h3>
+                        <h4>PCMC</h4>
+                        <p class="timeline-institution">
+                            <i class="ph ph-buildings"></i> Manasarowar Pushkarini Vidyasharama
+                        </p>
+                        <p class="timeline-location">
+                            <i class="ph ph-map-pin"></i> Mysuru, India
+                        </p>
+                        <ul class="timeline-highlights">
+                            <li><i class="ph ph-check-circle"></i> Completed Pre-University in Science (PCMC)</li>
+                            <li><i class="ph ph-check-circle"></i> Built a strong foundation in Sciences and Mathematics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EXPERIENCE SECTION ========== -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">04.</span> Internship & Experience
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot">
+                        <i class="ph-fill ph-briefcase"></i>
+                    </div>
+                    <div class="timeline-content experience-card">
+                        <div class="timeline-badge">2025, July</div>
+                        <h3>Project Manager</h3>
+                        <h4>Anantha Jyothi Prathishthana</h4>
+                        <ul class="timeline-highlights">
+                            <li><i class="ph ph-caret-right"></i> Led multiple community-driven projects ensuring smooth planning & execution.</li>
+                            <li><i class="ph ph-caret-right"></i> Managed cross-functional teams & coordinated stakeholders.</li>
+                            <li><i class="ph ph-caret-right"></i> Applied prompt engineering techniques to streamline AI solutions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot">
+                        <i class="ph-fill ph-code"></i>
+                    </div>
+                    <div class="timeline-content experience-card">
+                        <div class="timeline-badge">Internship</div>
+                        <h3>Data Science and Machine Learning Intern</h3>
+                        <h4>IIMSTC, Bengaluru</h4>
+                        <ul class="timeline-highlights">
+                            <li><i class="ph ph-caret-right"></i> Worked on data analysis, preprocessing, and machine learning projects.</li>
+                            <li><i class="ph ph-caret-right"></i> Gained hands-on experience with Python and real-world datasets</li>
+                        </ul>
+                        <div class="experience-tech" style="margin-top: 1rem;">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">05.</span> Featured Projects
+            </h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card fade-in" data-category="ai">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="ph ph-translate" style="font-size: 3rem;"></i>
+                            <span>ISL Translating System</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn-icon" title="View Code" aria-label="GitHub Repository">
+                                    <i class="ph ph-github-logo"></i>
+                                </a>
+                                <a href="#" class="btn-icon" title="Live Demo" aria-label="Live Demo">
+                                    <i class="ph ph-arrow-square-out"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Two-Way ISL Translating System</h3>
+                        <p>AI-powered system translating between Indian Sign Language (ISL) and text/speech. Uses computer vision, deep learning & NLP for high accuracy.</p>
+                        <div class="project-tech">
+                            <span>Deep Learning</span>
+                            <span>Computer Vision</span>
+                            <span>NLP</span>
+                            <span>AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card fade-in" data-category="web">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="ph ph-activity" style="font-size: 3rem;"></i>
+                            <span>Skin Disease Detection</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn-icon" title="View Code" aria-label="GitHub Repository">
+                                    <i class="ph ph-github-logo"></i>
+                                </a>
+                                <a href="#" class="btn-icon" title="Live Demo" aria-label="Live Demo">
+                                    <i class="ph ph-arrow-square-out"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Skin Disease Detection Web App</h3>
+                        <p>Web application that utilizes Machine Learning for the detection of skin diseases. Built a fully responsive UI with HTML, CSS, and Java.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Machine Learning</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card fade-in" data-category="ai">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="ph ph-heartbeat" style="font-size: 3rem;"></i>
+                            <span>FITYNTRA Platform</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn-icon" title="View Code" aria-label="GitHub Repository">
+                                    <i class="ph ph-github-logo"></i>
+                                </a>
+                                <a href="#" class="btn-icon" title="Live Demo" aria-label="Live Demo">
+                                    <i class="ph ph-arrow-square-out"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>FITYNTRA: AI Wellness Support</h3>
+                        <p>An adaptive AI/ML-driven fitness and nutrition platform delivering personalized wellness recommendations, integrating calorie prediction and injury-aware support.</p>
+                        <div class="project-tech">
+                            <span>AI/ML</span>
+                            <span>Web Tech</span>
+                            <span>Wellness</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card fade-in" data-category="data">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="ph ph-waves" style="font-size: 3rem;"></i>
+                            <span>Ocean Acidity Level</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn-icon" title="View Code" aria-label="GitHub Repository">
+                                    <i class="ph ph-github-logo"></i>
+                                </a>
+                                <a href="#" class="btn-icon" title="Live Demo" aria-label="Live Demo">
+                                    <i class="ph ph-arrow-square-out"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Ocean Acidity Level Categorization</h3>
+                        <p>Machine Learning system for marine ecosystem monitoring. Categorizes coastal regions into Safe, Vulnerable, and Critical zones based on ocean pH and shipping traffic data.</p>
+                        <div class="project-tech">
+                            <span>Machine Learning</span>
+                            <span>Data Analytics</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card fade-in" data-category="ai">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="ph ph-brain" style="font-size: 3rem;"></i>
+                            <span>AI Contributions</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn-icon" title="View Code" aria-label="GitHub Repository">
+                                    <i class="ph ph-github-logo"></i>
+                                </a>
+                                <a href="#" class="btn-icon" title="Live Demo" aria-label="Live Demo">
+                                    <i class="ph ph-arrow-square-out"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI-based Contributions</h3>
+                        <p>Worked on various AI automation projects and focused on optimizing prompt designs for better AI solutions and efficiency.</p>
+                        <div class="project-tech">
+                            <span>Prompt Engineering</span>
+                            <span>AI Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CERTIFICATIONS SECTION ========== -->
+    <section id="designs" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">06.</span> My Designs
+            </h2>
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <p style="color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 1.1rem;">Explore my creative designs, event posters, and digital artwork.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem;">
+                    <a href="https://instagram.com/yashwanth.tr_" target="_blank" class="btn btn-secondary"><i class="ph ph-instagram-logo"></i> @yashwanth.tr_</a>
+                    <a href="https://instagram.com/travellers_hodophiles" target="_blank" class="btn btn-secondary"><i class="ph ph-instagram-logo"></i> @travellers_hodophiles</a>
+                </div>
+            </div>
+
+            <div class="cert-grid">
+                <!-- Design 1 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/CULTURAL AUD.jpeg" alt="Cultural Aud" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Cultural Aud</h4>
+                    <a href="./assets/designs/CULTURAL AUD.jpeg" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 2 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/E SPORTS.jpeg" alt="E Sports" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">E Sports</h4>
+                    <a href="./assets/designs/E SPORTS.jpeg" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 3 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/ENG PROFILE.png" alt="Eng Profile" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Eng Profile</h4>
+                    <a href="./assets/designs/ENG PROFILE.png" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 4 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/FOOD FEST.png" alt="Food Fest" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Food Fest</h4>
+                    <a href="./assets/designs/FOOD FEST.png" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 5 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/GRAVVIETY CUP.jpeg" alt="Gravviety Cup" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Gravviety Cup</h4>
+                    <a href="./assets/designs/GRAVVIETY CUP.jpeg" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 6 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/INVITATION.jpeg" alt="Invitation" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Invitation</h4>
+                    <a href="./assets/designs/INVITATION.jpeg" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 7 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/JERSEY 2.png" alt="Jersey 2" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Jersey 2</h4>
+                    <a href="./assets/designs/JERSEY 2.png" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 8 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/JERSEY.png" alt="Jersey" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Jersey</h4>
+                    <a href="./assets/designs/JERSEY.png" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 9 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/LOGO UNVEILING.jpeg" alt="Logo Unveiling" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Logo Unveiling</h4>
+                    <a href="./assets/designs/LOGO UNVEILING.jpeg" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 10 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/LOGO.png" alt="Logo" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Logo</h4>
+                    <a href="./assets/designs/LOGO.png" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 11 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/MC.jpeg" alt="MC" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">MC</h4>
+                    <a href="./assets/designs/MC.jpeg" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 12 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/NCA CRICKET.png" alt="NCA Cricket" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">NCA Cricket</h4>
+                    <a href="./assets/designs/NCA CRICKET.png" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 13 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/Purple and Green Floral Anniversary Invitation.png" alt="Anniversary Invitation" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Anniversary Invitation</h4>
+                    <a href="./assets/designs/Purple and Green Floral Anniversary Invitation.png" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 14 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/SPARDHA.jpeg" alt="Spardha" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Spardha</h4>
+                    <a href="./assets/designs/SPARDHA.jpeg" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+                <!-- Design 15 -->
+                <div class="cert-card fade-in" style="padding: 1rem; text-align: center;">
+                    <img src="./assets/designs/sports Certificate.png" alt="Sports Certificate" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;" />
+                    <h4 style="font-size: 1.1rem;">Sports Certificate</h4>
+                    <a href="./assets/designs/sports Certificate.png" target="_blank" class="btn-icon" style="margin-top: 0.5rem;"><i class="ph ph-eye"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== RESUME SECTION ========== -->
+    <section id="resume" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">07.</span> My Resume
+            </h2>
+            <div class="resume-content fade-in">
+                <div class="resume-preview">
+                    <div class="resume-preview-card">
+                        <div class="resume-preview-header">
+                            <i class="ph ph-file-pdf" style="font-size: 3rem; color: var(--primary);"></i>
+                            <div>
+                                <h3>Yashwanth T R</h3>
+                                <p>Software Developer | Engineering Graduate</p>
+                            </div>
+                        </div>
+                        <div class="resume-preview-body">
+                            <div class="resume-section-preview">
+                                <h4><i class="ph ph-user"></i> Profile Summary</h4>
+                                <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5; margin-top: 0.5rem;">A highly motivated Computer Science and Engineering student with a passion for software development, machine learning, and data science.</p>
+                            </div>
+                            <div class="resume-section-preview">
+                                <h4><i class="ph ph-graduation-cap"></i> Education</h4>
+                                <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5; margin-top: 0.5rem;">B.E. in Computer Science (CGPA: 7.60) | VVIET Mysuru</p>
+                            </div>
+                            <div class="resume-section-preview">
+                                <h4><i class="ph ph-code"></i> Technical Skills</h4>
+                                <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5; margin-top: 0.5rem;">Java, Python, C, HTML/CSS, Machine Learning, AI</p>
+                            </div>
+                            <div class="resume-section-preview">
+                                <h4><i class="ph ph-briefcase"></i> Experience</h4>
+                                <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5; margin-top: 0.5rem;">Project Manager | Data Science Intern</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-info">
+                    <h3>Download My Resume</h3>
+                    <p>
+                        Get a comprehensive overview of my skills, education, experience, and projects. 
+                        My resume is available for download in PDF format.
+                    </p>
+                    <div class="resume-highlights">
+                        <div class="resume-highlight-item">
+                            <i class="ph-fill ph-check-circle"></i>
+                            <span>Updated with latest projects & skills</span>
+                        </div>
+                        <div class="resume-highlight-item">
+                            <i class="ph-fill ph-check-circle"></i>
+                            <span>ATS-friendly format</span>
+                        </div>
+                        <div class="resume-highlight-item">
+                            <i class="ph-fill ph-check-circle"></i>
+                            <span>Professional layout & design</span>
+                        </div>
+                    </div>
+                    <a href="assets/resume.pdf" download class="btn btn-primary resume-download">
+                        <i class="ph ph-download-simple"></i> Download Resume (PDF)
+                    </a>
+                    <p class="resume-note">
+                        <i class="ph ph-info"></i> Place your resume PDF in the <code>assets/</code> folder as <code>resume.pdf</code>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">08.</span> Get In Touch
+            </h2>
+            <div class="contact-container">
+                <div class="contact-info fade-in slide-left">
+                    <h3>Let's Work Together</h3>
+                    <p>
+                        I'm currently looking for new opportunities. Whether you have a question, 
+                        a project idea, or just want to say hello — my inbox is always open!
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="ph ph-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:yashwanthtr.vviet@gmail.com">yashwanthtr.vviet@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="ph ph-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+917483420184">+91 7483420184</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="ph ph-map-pin"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Bengaluru, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="ph ph-linkedin-logo"></i>
+                            </div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/yashwanthtr174" target="_blank" rel="noopener noreferrer">linkedin.com/in/yashwanthtr174</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="ph ph-github-logo"></i>
+                            </div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/yashwanthtr174" target="_blank" rel="noopener noreferrer">github.com/yashwanthtr174</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper fade-in slide-right">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <div class="input-wrapper">
+                                <i class="ph ph-user"></i>
+                                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <div class="input-wrapper">
+                                <i class="ph ph-envelope"></i>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <div class="input-wrapper">
+                                <i class="ph ph-chat-text"></i>
+                                <input type="text" id="subject" name="subject" placeholder="How can I help you?" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <div class="input-wrapper textarea-wrapper">
+                                <i class="ph ph-note-pencil"></i>
+                                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <i class="ph ph-paper-plane-tilt"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-logo">
+                        <span class="logo-bracket">&lt;</span>Yashwanth<span class="logo-dot">.</span>dev<span class="logo-bracket">/&gt;</span>
+                    </a>
+                    <p>Engineering Graduate & Software Developer passionate about building impactful software solutions.</p>
+                </div>
+                <div class="footer-links-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/yashwanth-tr" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link">
+                            <i class="ph ph-github-logo"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yashwanth-tr" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+                            <i class="ph ph-linkedin-logo"></i>
+                        </a>
+                        <a href="mailto:yashwanth.tr@email.com" aria-label="Email" class="social-link">
+                            <i class="ph ph-envelope-simple"></i>
+                        </a>
+                        <a href="https://twitter.com/yashwanth_tr" target="_blank" rel="noopener noreferrer" aria-label="Twitter" class="social-link">
+                            <i class="ph ph-twitter-logo"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Yashwanth T R. All rights reserved.</p>
+                <p>Designed & Built with <span class="heart">&hearts;</span> by Yashwanth T R</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== SCROLL TO TOP ========== -->
+    <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">
+        <i class="ph ph-caret-up"></i>
+    </button>
+
+    <!-- ========== TOAST NOTIFICATION ========== -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
